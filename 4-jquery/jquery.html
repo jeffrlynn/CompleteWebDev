@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>jQuery</title>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script src="jquery-ui/jquery-ui.js"></script>
+        <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="jquerycss.css">
+    </head>
+    <body>
+        <div id="draggable">
+        <p class="drag-text">Drag me you whore!</p>
+        </div>
+        <div id="mirandaBox">
+        <p class="drag-text">Hey Miranda! Drag me.</p>
+        </div>
+        <script type="text/javascript">
+            $("#draggable").draggable();
+            $("#mirandaBox").draggable();
+        </script>
+    </body>
+</html>

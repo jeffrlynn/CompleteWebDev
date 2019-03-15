@@ -1,0 +1,245 @@
+#topbar {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#logo {
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 100px;
+    float: left;
+}
+.topbar-section {
+    float: left;
+    border-left: 1px #CCCCCC solid;
+    height: 100%;
+
+}
+#signin-image {
+    width: 23px;
+    margin: 11px 15px;
+    float: left;
+}
+#signin-text {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 14;
+    padding-right: 45px;
+}
+#belldiv {
+    float: left;
+}
+#topbar-squiggle {
+    float: left;
+    height: 40px;
+}
+#bell {
+    height: 25px;
+    margin: 9px 8px 0 8;
+}
+.topbar-menu {
+    font-weight: bold;
+    font-size: 90%;
+    padding: 13px 15px 0 15px;
+    height: 27px
+}
+#downarrow {
+    margin-left: 20px;
+    float: right;
+    position: relative;
+    bottom: 1px;
+}
+#search-box {
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    margin: 7px 0 5px 5px;
+    float: left;
+}
+#magnifyer {
+    height: 27px;
+    margin-top: 7px;
+}
+.clear {
+    clear: both;
+}
+#menu-bar-container {
+    border-top: 1px solid #CCCCCC;
+    background-color: #BB1919;
+    width: 100%;
+    height: 70px;
+
+}
+#menu-bar {
+    width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    padding: 5px 0 5px 0;
+    margin: 0;
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 10px;
+    float: left;
+}
+#local-news {
+    border: 1px #BB4545 solid;
+    float: right;
+    width: 180px;
+    padding: 3px 0 0 15px;
+    margin: 12px 10px 0 0;
+}
+#local-news a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -8px;
+}
+#local-news a:hover {
+    text-decoration: underline;
+
+}
+#local-news img {
+    height: 35px;
+}
+#menu-bar-2-container {
+    background-color: #A91717;
+    width: 100%;
+
+}
+#menu-bar-2 {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+#menu-bar-2 a {
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 0 10px;
+    border-right: 1px solid #BB4545;
+    font-size: 15px;
+    position: relative;
+    top: 11px;
+}
+#menu-bar-2 a:hover {
+    text-decoration: underline;
+}
+.no-border {
+    border: none !important;
+}
+#white-arrow {
+    height: 12px;
+    position: relative;
+    top: 12px;
+}
+#page-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+h2 {
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 23px;
+    border-bottom: 3px solid #a91717;
+    width: 117px;
+}
+h3 a {
+    color: black;
+    font-size: 33px;
+    text-decoration: none;
+}
+h3 a:hover {
+    color: #1167a8;
+}
+#article-summary {
+    color: #5a5a5a;
+    width: 270px;
+    float: left;
+    position: relative;
+    top: -20px;
+}
+.clock {
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+.topic-link {
+    text-decoration: none;
+    color: #a91717;
+    border-left: 1px solid #CCCCCC;
+    padding: 0 10px;
+}
+.topic-link:hover {
+    color: #1167a8;
+}
+.date {
+    padding-right: 10px;
+    color: #5a5a5a;
+}
+#article-container {
+    float: left;
+    width: 665px;
+    position: relative;
+    top: -10px;
+    border-right: 1px solid #CCCCCC;
+    padding-right: 10px;
+}
+#ASDA-img {
+    width: 380px;
+    margin-left: 10px;
+}
+#article-hr {
+    width: 45px;
+    border-top: 1px solid #a91717;
+}
+.article-link {
+    color: black;
+    text-decoration: none;
+}
+#watch-listen {
+    margin-left: 15px;
+    width: 300px;
+    float: right;
+}
+h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+.side-image {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+.watch-listen-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.watch-listen-link:hover {
+    color: #1167a8;
+}
+.side-article {
+    float: right;
+    width: 185px;
+    position: relative;
+    top: -18px;
+}
+.no-border {
+    border-left: none;
+    padding: 0px;
+}
+.border-right {
+    border-right: 1px solid #CCCCCC;
+}
